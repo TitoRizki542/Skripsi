@@ -1,0 +1,37 @@
+.img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+
+.login-section {
+    padding: 5em 0; }
+
+.login-no-pt {
+    padding-top: 0; }
+
+.login-no-pb {
+    padding-bottom: 0; }
+
+.register-section {
+    padding: 2em 0; }
+
+.register-no-pt {
+    padding-top: 0; }
+
+.register-no-pb {
+    padding-bottom: 0; }
+
+@media (width < 600px) {
+   .login-section {
+    padding: 4em 0; }
+
+    .register-section {
+    padding: 4em 0; }
+}
+@media (width < 900px) {
+   .login-section {
+    padding: 4em 0; }
+
+    .register-section {
+    padding: 4em 0; }
+}
